@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    println!("setting all path and file");
 }
