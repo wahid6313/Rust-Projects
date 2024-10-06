@@ -41,6 +41,14 @@ fn main() {
         println!("the number is odd")
     }
 
+    //sum of two numbers---------------------
+    let a = 10;
+    let b = 20;
+
+    let sum = do_sum(a, b);
+    println!("sum of {} and {} is :  {}", a, b , sum);
+
+
     //iterate over a string------------------
     let sentence = String::from("my name is wahid ali");
     let first_word = get_first(sentence);
@@ -48,8 +56,21 @@ fn main() {
     println!("first word is: {first_word}");
     
     // print_lebel(5, 'h');
+
+    let mut wahid = String::from("my name is wahid ");
+    for _ in 0..10 {
+        wahid = wahid + " " + "raza";
+        println!("{}", wahid);
+    }
     
 }
+
+//function os sum of two number---------------
+fn do_sum(a: i32, b: i32) -> i32 {
+  return a + b ;
+}
+
+
 
 //function of iterate over a string----------
 fn get_first(sentence: String) -> String {
