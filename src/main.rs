@@ -57,9 +57,9 @@ fn main() {
     
     // print_lebel(5, 'h');
 
-    let mut wahid = String::from("my name is wahid ");
+    let wahid = String::from("my name is wahid ");
     for _ in 0..10 {
-        wahid = wahid + " " + "raza";
+        // wahid = wahid + " " + "raza";
         println!("{}", wahid);
     }
     
