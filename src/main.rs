@@ -55,7 +55,7 @@ fn main() {
 
     println!("first word is: {first_word}");
     
-    // print_lebel(5, 'h');
+    print_lebel(5, 'h');
 
     let wahid = String::from("my name is wahid ");
     for _ in 0..10 {
@@ -86,8 +86,8 @@ fn get_first(sentence: String) -> String {
     return ans;
 }
 
-// fn print_lebel(value: i32, unit_lebel: char) {
-//     println!("the value of that is: {value}{unit_lebel}")
-// }
+fn print_lebel(value: i32, unit_lebel: char) {
+    println!("the value of that is: {value}{unit_lebel}")
+}
 
 
