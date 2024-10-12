@@ -57,11 +57,11 @@ fn main() {
     
     // print_lebel(5, 'h');
 
-    let wahid = String::from("my name is wahid ");
-    for _ in 0..10 {
-        // wahid = wahid + " " + "raza";
-        println!("{}", wahid);
-    }
+    // let wahid = String::from("my name is wahid ");
+    // for _ in 0..10 {
+    //     // wahid = wahid + " " + "raza";
+    //     println!("{}", wahid);
+    // }
     
 }
 
